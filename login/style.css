@@ -1,0 +1,50 @@
+body{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 1px;
+    position: relative;
+}
+#myId,#password{
+    height: 30px;
+    margin: 10px;
+    width: 97%;
+}
+#btn{
+    background-color: rgb(7, 128, 241);
+    color: #fff;
+    margin-top: 5px;
+    border: 0;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+
+p{
+    color: green;
+    display: none;
+}
+i{
+    top: 5px;
+    right: 5px;
+    color: rgb(0, 0, 0);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+
+
